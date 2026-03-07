@@ -1,0 +1,22 @@
+# คำสั่งสำหรับ commit & push โปรเจกต์ไป GitHub
+
+# 1. เข้าไปที่โฟลเดอร์โปรเจกต์
+cd D:\my-nextjs-app
+
+# 2. Initialize git repository
+git init
+
+# 3. Add remote repository
+git remote add origin https://github.com/yothin-ai/Fencing-git.git
+
+# 4. Stage all files
+git add .
+
+# 5. Commit files
+git commit -m "Initial commit: Next.js project with TypeScript and Tailwind CSS"
+
+# 6. Push to GitHub
+git push -u origin main
+
+# หมายเหตุ: ถ้า branch default ไม่ใช่ main ให้ใช้:
+# git push -u origin master
