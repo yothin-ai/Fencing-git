@@ -7,7 +7,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            src="https://i.imgur.com/your-fencing-image.jpg"
             alt="Fencing background"
             className="w-full h-full object-cover"
           />
