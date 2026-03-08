@@ -16,7 +16,7 @@ export default function AboutSection() {
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-blue-400">Our Philosophy</h3>
               <p className="text-gray-300 leading-relaxed">
-                Fencing is more than just a sport—it's a discipline that combines physical agility, 
+                Fencing is more than just a sport—it&apos;s a discipline that combines physical agility, 
                 mental sharpness, and strategic thinking. Our academy is dedicated to nurturing these 
                 qualities in every student, from beginners to competitive athletes.
               </p>

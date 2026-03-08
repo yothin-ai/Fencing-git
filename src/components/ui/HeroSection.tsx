@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function HeroSection() {
   return (
     <div className="relative bg-gradient-to-br from-black via-blue-900 to-black text-white">
@@ -46,15 +48,17 @@ export default function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-transparent rounded-lg opacity-30"></div>
             <div className="relative bg-gray-900 rounded-lg overflow-hidden shadow-2xl">
               <div className="aspect-w-16 aspect-h-12">
-                <img 
+                <Image 
                   src="/api/placeholder/600/400" 
                   alt="Fencer in action"
+                  width={600}
+                  height={400}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6">
                 <p className="text-sm text-gray-300 italic">
-                  "The art of fencing is the art of hitting without being hit."
+                  &quot;The art of fencing is the art of hitting without being hit.&quot;
                 </p>
               </div>
             </div>
