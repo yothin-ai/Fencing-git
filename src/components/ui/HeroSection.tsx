@@ -5,6 +5,13 @@ export default function HeroSection() {
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
+        <div className="absolute inset-0">
+          <img 
+            src="https://images.unsplash.com/photo-1579952793565-5f3a8b6b9b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt="Fencing background"
+            className="w-full h-full object-cover"
+          />
+        </div>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-blue-900/50"></div>
       </div>
